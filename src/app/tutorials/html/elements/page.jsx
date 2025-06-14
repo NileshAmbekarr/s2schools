@@ -1,6 +1,6 @@
 import MainLayout from '@/components/layout/MainLayout';
 import TutorialContent from '@/components/tutorial/TutorialContent';
-import { htmlElements } from '@/data/htmlTutorials';
+import { htmlElements } from '@/data/tutorials/html';
 
 export const metadata = {
   title: 'HTML Elements Tutorial | S2Schools',

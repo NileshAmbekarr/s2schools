@@ -1,6 +1,6 @@
 import MainLayout from '@/components/layout/MainLayout';
 import TutorialContent from '@/components/tutorial/TutorialContent';
-import { htmlAttributes } from '@/data/htmlTutorials';
+import { htmlAttributes } from '@/data/tutorials/html';
 
 export const metadata = {
   title: 'HTML Attributes Tutorial | S2Schools',

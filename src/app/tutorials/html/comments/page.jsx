@@ -1,6 +1,6 @@
 import MainLayout from '@/components/layout/MainLayout';
 import TutorialContent from '@/components/tutorial/TutorialContent';
-import { htmlComments } from '@/data/htmlTutorials';
+import { htmlComments } from '@/data/tutorials/html';
 
 export const metadata = {
   title: 'HTML Comments Tutorial | S2Schools',

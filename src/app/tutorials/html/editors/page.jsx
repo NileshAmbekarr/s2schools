@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import TutorialContent from '@/components/tutorial/TutorialContent';
-import { htmlEditors } from '@/data/htmlTutorials';
+import { htmlEditors } from '@/data/tutorials/html';
 import CodeEditor from '@/components/editor/CodeEditor';
 import MainLayout from '@/components/layout/MainLayout';
 

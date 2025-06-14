@@ -2,33 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-
-// HTML tutorial topics - this could be moved to data files later
-const htmlTopics = [
-  { id: 'html_intro', title: 'HTML Introduction', path: '/tutorials/html/introduction' },
-  { id: 'html_editors', title: 'HTML Editors', path: '/tutorials/html/editors' },
-  { id: 'html_basic', title: 'HTML Basic', path: '/tutorials/html/basic' },
-  { id: 'html_elements', title: 'HTML Elements', path: '/tutorials/html/elements' },
-  { id: 'html_attributes', title: 'HTML Attributes', path: '/tutorials/html/attributes' },
-  { id: 'html_headings', title: 'HTML Headings', path: '/tutorials/html/headings' },
-  { id: 'html_paragraphs', title: 'HTML Paragraphs', path: '/tutorials/html/paragraphs' },
-  { id: 'html_styles', title: 'HTML Styles', path: '/tutorials/html/styles' },
-  { id: 'html_formatting', title: 'HTML Formatting', path: '/tutorials/html/formatting' },
-  { id: 'html_quotations', title: 'HTML Quotations', path: '/tutorials/html/quotations' },
-  { id: 'html_comments', title: 'HTML Comments', path: '/tutorials/html/comments' },
-  { id: 'html_colors', title: 'HTML Colors', path: '/tutorials/html/colors' },
-  { id: 'html_css', title: 'HTML CSS', path: '/tutorials/html/css' },
-  { id: 'html_links', title: 'HTML Links', path: '/tutorials/html/links' },
-  { id: 'html_images', title: 'HTML Images', path: '/tutorials/html/images' },
-  { id: 'html_tables', title: 'HTML Tables', path: '/tutorials/html/tables' },
-  { id: 'html_lists', title: 'HTML Lists', path: '/tutorials/html/lists' },
-  { id: 'html_blocks', title: 'HTML Blocks', path: '/tutorials/html/blocks' },
-  { id: 'html_classes', title: 'HTML Classes', path: '/tutorials/html/classes' },
-  { id: 'html_id', title: 'HTML Id', path: '/tutorials/html/id' },
-  { id: 'html_iframes', title: 'HTML Iframes', path: '/tutorials/html/iframes' },
-  { id: 'html_javascript', title: 'HTML JavaScript', path: '/tutorials/html/javascript' },
-  { id: 'html_forms', title: 'HTML Forms', path: '/tutorials/html/forms' },
-];
+import { htmlTopics } from '@/data/tutorials/html';
 
 const Sidebar = ({ currentTopic = '' }) => {
   const [isOpen, setIsOpen] = useState(false);

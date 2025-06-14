@@ -1,6 +1,6 @@
 import MainLayout from '@/components/layout/MainLayout';
 import TutorialContent from '@/components/tutorial/TutorialContent';
-import { htmlColors } from '@/data/htmlTutorials';
+import { htmlColors } from '@/data/tutorials/html';
 
 export const metadata = {
   title: 'HTML Colors Tutorial | S2Schools',

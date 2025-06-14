@@ -1,6 +1,6 @@
 import MainLayout from '@/components/layout/MainLayout';
 import TutorialContent from '@/components/tutorial/TutorialContent';
-import { htmlStyles } from '@/data/htmlTutorials';
+import { htmlStyles } from '@/data/tutorials/html';
 
 export const metadata = {
   title: 'HTML Styles Tutorial | S2Schools',

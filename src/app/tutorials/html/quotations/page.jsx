@@ -1,6 +1,6 @@
 import MainLayout from '@/components/layout/MainLayout';
 import TutorialContent from '@/components/tutorial/TutorialContent';
-import { htmlQuotations } from '@/data/htmlTutorials';
+import { htmlQuotations } from '@/data/tutorials/html';
 
 export const metadata = {
   title: 'HTML Quotations Tutorial | S2Schools',
